@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+</head>
+<body background="https://us.123rf.com/450wm/worldofvector/worldofvector1702/worldofvector170200001/70873073-papel-del-cuaderno-plantilla-de-c%C3%A9lulas-textura-cuadrado-hoja-en-blanco-del-cuaderno-fondo-dise%C3%B1o-pl.jpg?ver=6">
+    <table width="100%" align="center" bgcolor="#B71C1C">
+        <tr>
+            <td align="center">
+                <font color="white" size="20" face="impact">Manuel</font> <br>
+                <font color="white" size="25" face="impact" >Galeano</font>
+            </td>
+            <td width="30%" align="center"></td>
+            <td align="center">
+                <a href="index.html"><font color="white" size="5">Presentacion</font></a>
+            <td  align="center">
+                <a href="TiempoLibre.html"><font color="white" size="5" >Tiempo Libre</font></a>
+            </td>
+            <td align="center">
+                <a href="MisSueños.html"><font color="white" size="5">Mis sueños</font></a>
+            </td>
+            <td bgcolor="#C62828" align="center">
+                <font color="white" size="5">Contacto</font>
+            </td>
+            <br>  
+        </tr>
+    </table>
+    <br>
+    <form action="validar.php" method="post" >
+        <fieldset>
+            <legend>Your details</legend>
+            <br>
+            <label for="name">Name</label>
+            <input tipe="text" name="name" id="name"><br>
+            <label for="email">Email</label>
+            <input tipe="text" name="email" id="email"><br>
+            <label for="phone"> Phone</label>
+            <input type="number" name="phone" id="phone">
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend>Delivery Addres</legend>
+            <br>
+            <label for="addres">1. Addres</label> 
+                <textarea rows="10" cols="40" name="texto"></textarea><br>
+            <label for="post code">2. Post code</label>
+            <input tipe="number" name="post code" id="post code"><br>
+            <label for="country"> 3. Country</label>
+            <input type="text" name="country" id="country">
+        </fieldset>
+        <br>
+
+        <fieldset>
+         <legend>Card Details</legend>
+         <br>
+            <fieldset>
+                <legend>Card type</legend>
+                <br>
+                <label for="visa">Visa</label>
+                <input type="checkbox" name="visa" id="visa">
+                <br>
+                <label for="AmEx">Amex</label>
+                <input type="checkbox" name="AmEx" id="AmEx">
+                <br>
+                <label for="Mastercard">Mastercard</label>
+                <input type="checkbox" name="mastercard" id="mastercard">
+            </fieldset>
+         <br>
+         <label for="card number">2. Card Number</label> 
+         <input tipe="number" name="card number" id="card number"><br>
+         <label for="security code">3. Security code</label>
+         <input tipe="text" name="security code" id="security code"><br>
+         <label for="name on card"> 4. Name on Card</label>
+         <input type="text" name="name on card" id="name on card">
+        </fieldset>
+        <fieldset> <input type="submit" value="Buy it"></fieldset>>
+        
+
+    </form>
+</body>
+</body>
+</html>
